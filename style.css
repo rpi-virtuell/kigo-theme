@@ -1,0 +1,143 @@
+/*
+Theme Name: Neve Child
+Theme URI: https://themeisle.com/themes/neve/
+Template: neve
+Author: ThemeIsle
+Author URI: https://themeisle.com
+Description: Neve is a super fast, easily customizable, multi-purpose theme. It’s perfect for blogs, small business, startups, agencies, firms, e-commerce shops (WooCommerce storefront) as well as personal portfolio sites and most types of projects. A fully AMP optimized and responsive theme, Neve will load in mere seconds and adapt perfectly on any viewing device. While it is lightweight and has a minimalist design, the theme is highly extendable, it has a highly SEO optimized code, resulting in top rankings in Google search results. Neve works perfectly with Gutenberg and the most popular page builders (Elementor, Brizy, Beaver Builder, Visual Composer, SiteOrigin, Divi). Neve is also WooCommerce ready, responsive, RTL &amp; translation ready. Look no further. Neve is the perfect theme for you!
+Tags: blog,custom-logo,e-commerce,rtl-language-support,grid-layout,one-column,two-columns,custom-background,custom-colors,custom-header,custom-menu,featured-image-header,featured-images,flexible-header,full-width-template,sticky-post,theme-options,threaded-comments,translation-ready,accessibility-ready,wide-blocks,block-styles,footer-widgets,portfolio,left-sidebar,right-sidebar
+Version: 2.9.1.1607773209
+Updated: 2020-12-12 12:40:09
+
+*/
+#search-header .search-form .search-field {
+    font-family: "Kalam" !important;
+    font-size: 2rem;
+    border: 3px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    padding: 10px 20px;
+}
+#search-header .search-form .nv-search-icon-wrap{
+
+}
+
+#search-header .search-form .nv-search-icon-wrap .nv-icon.nv-suche{
+
+    margin-top: -40px;
+    margin-left: 0px;
+
+
+}
+#search-header .search-form input[type="submit"]:hover{
+    max-height: 72px
+}
+
+.pwpc-hs-slider-nav-content #grundgedanke{
+    padding:0;
+    max-width:500px;
+    font-size:16px;
+}
+.pwpc-hs-slider-nav-content .has-small-font-size{
+    color: #777;
+}
+.pwpc-hs-slider-nav-content .has-small-font-size a{
+    color: #777;
+    font-style:italic;
+}
+
+.pwpc-hs-feature-img {
+    border-radius: 0px;
+    background-color:#FFF2A7;
+}
+.widget_meta:first-child {
+    margin-top:30px;
+}
+.widget ul {
+    background-color: rgba(250, 250, 250, 0.6);
+    padding: 20px;
+    font-weight: bolder;
+}
+.single #grundgedanke{
+    background-color:rgb(255,255,255,.6);
+    padding:15px
+
+}
+.pwpc-hs-slider-design-6{
+    background-color:rgb(255,240,255,.6);
+    padding:15px;
+
+}
+.pwpc-hs-slider-wrapper{
+    background:none;
+
+}
+
+.pwpc-hs-slider-design-6 .pwpc-hs-slider-nav .pwpc-hs-slider-nav-title .pwpc-hs-main-title button{
+    background:darkred;
+}
+
+.pwpc-hs-slider-design-6 .pwpc-hs-slider-nav-wrapper{
+    background-color:transparent;
+}
+.pwpc-hs-post-date span a{
+    font-family: 'Comic Neue';
+    font-variant: normal;
+    font-weight: bold;
+    font-size:120%;
+    color: #579CD7!important;
+    text-decoration: none!important;
+}
+.kt-accordion-id_a6177c-44 .wp-block-kadence-pane .kt-blocks-accordion-header{
+    color: #4292db;
+    background-color: #fff;
+}
+.kt-accordion-id_a6177c-44 .wp-block-kadence-pane .kt-blocks-accordion-header:hover{
+    background-color: #4292db;
+    color:#fff;
+}
+.kt-accordion-id_a6177c-44 .kt-blocks-accordion-header.kt-accordion-panel-active{
+    background-color: #4292db;
+    color:#fff;
+}
+
+li.menu-item a{
+    color:#fff!important;
+}
+li.menu-item a:hover{
+    color:#fff!important;
+    text-decoration:none!important;
+}
+.kt-block-spacer .kt-divider{
+    border-top-color: black!important;
+}
+.hfg_header .header-menu-sidebar .header-menu-sidebar-bg {
+    background-color: #579DDF;
+}
+@media only screen and (max-width: 600px) {
+    .nv-title-tagline-wrap small{
+        display:none!important;
+    }
+}
+
+.nv-non-grid-article{
+    background-color: rgb(250,240,250,0.6);
+    padding-top: 15px
+
+}
+.excerpt-wrap.entry-summary > a{
+    border: 2px solid darkred;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+.excerpt-wrap.entry-summary > a:hover{
+    color:white;
+    background-color:#579DDA;
+    border: 2px solid white;
+    text-decoration:none;
+}
+
+
+.pwpc-hs-fullcontent.pwpc-hs-tl-content > a{
+    display: none;
+}
