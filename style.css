@@ -118,6 +118,9 @@ li.menu-item a:hover{
     .nv-title-tagline-wrap small{
         display:none!important;
     }
+    .site-logo h1, .site-logo p {
+        font-size: 0.7em;
+    }
 }
 
 .nv-non-grid-article{
