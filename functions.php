@@ -5,6 +5,18 @@ if ( !defined( 'ABSPATH' ) ) exit;
 // BEGIN ENQUEUE PARENT ACTION
 // AUTO GENERATED - Do not modify or remove comment markers above or below:
 
+function my_login_logo_one() { 
+?> 
+<style type="text/css"> 
+body.login div#login h1 a {
+ background-image: url(https://kindergottesdienst-ekd.de/wp-content/uploads/2020/12/Logo-GV.jpg);  //Add your own logo image in this url 
+padding-bottom: 30px; 
+} 
+</style>
+ <?php 
+} add_action( 'login_enqueue_scripts', 'my_login_logo_one' );
+
+
 if ( !function_exists( 'chld_thm_cfg_locale_css' ) ):
     function chld_thm_cfg_locale_css( $uri ){
         if ( empty( $uri ) && is_rtl() && file_exists( get_template_directory() . '/rtl.css' ) )
@@ -105,87 +117,3 @@ function kigoplan_my_search_form( $form=null ) {
 }
 add_filter( 'get_search_form', 'kigoplan_my_search_form' );
 
-
-
-if( function_exists('acf_add_local_field_group') ):
-
-	acf_add_local_field_group(array(
-		'key' => 'group_5d0223b1524c0',
-		'title' => 'Kigoplan',
-		'fields' => array(
-			array(
-				'key' => 'field_5d0223edd3281',
-				'label' => 'Datum des ersten Sonntag',
-				'name' => 'startdate',
-				'type' => 'date_picker',
-				'instructions' => '',
-				'required' => 1,
-				'conditional_logic' => 0,
-				'wrapper' => array(
-					'width' => '',
-					'class' => '',
-					'id' => '',
-				),
-				'display_format' => 'd.m.Y',
-				'return_format' => 'd.m.Y',
-				'first_day' => 1,
-			),
-			array(
-				'key' => 'field_5d02c9bd2e975',
-				'label' => 'Datum des letzten Sonntag',
-				'name' => 'enddate',
-				'type' => 'date_picker',
-				'instructions' => '',
-				'required' => 0,
-				'conditional_logic' => array(
-					array(
-						array(
-							'field' => 'field_5d0223edd3281',
-							'operator' => '!=empty',
-						),
-					),
-				),
-				'wrapper' => array(
-					'width' => '',
-					'class' => '',
-					'id' => '',
-				),
-				'display_format' => 'd.m.Y',
-				'return_format' => 'd.m.Y',
-				'first_day' => 1,
-			),
-		),
-		'location' => array(
-			array(
-				array(
-					'param' => 'post_type',
-					'operator' => '==',
-					'value' => 'post',
-				),
-				array(
-					'param' => 'post_category',
-					'operator' => '==',
-					'value' => 'category:allgemein',
-				),
-			),
-		),
-		'menu_order' => 0,
-		'position' => 'normal',
-		'style' => 'seamless',
-		'label_placement' => 'top',
-		'instruction_placement' => 'field',
-		'hide_on_screen' => array(
-			0 => 'excerpt',
-			1 => 'discussion',
-			2 => 'comments',
-			3 => 'slug',
-			4 => 'author',
-			5 => 'format',
-			6 => 'page_attributes',
-			7 => 'send-trackbacks',
-		),
-		'active' => true,
-		'description' => '',
-	));
-
-endif;

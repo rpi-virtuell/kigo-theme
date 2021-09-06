@@ -114,7 +114,26 @@ li.menu-item a:hover{
 .hfg_header .header-menu-sidebar .header-menu-sidebar-bg {
     background-color: #579DDF;
 }
+#free-content {
+    margin: 10px 40px 0 0;
+    border-color: transparent!important;
+
+}
+#free-content p {
+    margin: 20px;
+    font-weight: bold;
+}
+
 @media only screen and (max-width: 600px) {
+
+    #free-content {
+        margin: 0;
+    }
+    #free-content p {
+        margin: 10px;
+        font-weight: bold;
+    }
+
     .nv-title-tagline-wrap small{
         display:none!important;
     }
@@ -144,22 +163,23 @@ li.menu-item a:hover{
 .pwpc-hs-fullcontent.pwpc-hs-tl-content > a{
     display: none;
 }
+
 .page .nv-content-wrap.entry-content{
-    padding:10px;
-    background-color: rgb(250,240,250,.3);
+	padding:10px;
+	background-color: rgb(250,240,250,.3);
 }
 body.home .nv-content-wrap.entry-content{
-    padding:10px;
-    background:none!important;
+	padding:10px;
+	background:none!important;
 }
 .wp-block-latest-posts li > a{
-    font-family: "kalam";
-    font-size: 22px;
+	font-family: "kalam";
+	font-size: 22px;
 }
 
 #nv-primary-navigation-main .sub-menu{
-    background: #579DDF;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background: #579DDF;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .hfg_header .header-menu-sidebar .header-menu-sidebar-bg .nav-ul .sub-menu {
     background-color: #579CDA;
