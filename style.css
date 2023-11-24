@@ -18,6 +18,31 @@ Updated: 2020-12-12 12:40:09
     margin-bottom: 40px;
     padding: 10px 20px;
 }
+#suchblock .search-form .search-field {
+    font-family: "Kalam" !important;
+    font-size: 2rem;
+    border: 3px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    padding: 10px 20px;
+}
+#suchblock .search-submit {
+    padding: 0px 0px;
+    margin: 0;
+    border: 0;
+    color:transparent;
+    height: 50%;
+    background:transparent;
+}
+#suchblock .kt-blocks-info-box-media-container{
+    display:none;
+}
+#suchblock .search-form .nv-search-icon-wrap svg{
+    width: 66px;
+    height: 65px;
+    margin-left: -50px;
+    fill: black;
+}
 #search-header .search-form .nv-search-icon-wrap{
 
 }
@@ -165,21 +190,21 @@ li.menu-item a:hover{
 }
 
 .page .nv-content-wrap.entry-content{
-	padding:10px;
-	background-color: rgb(250,240,250,.3);
+    padding:10px;
+    background-color: rgb(250,240,250,.3);
 }
 body.home .nv-content-wrap.entry-content{
-	padding:10px;
-	background:none!important;
+    padding:10px;
+    background:none!important;
 }
 .wp-block-latest-posts li > a{
-	font-family: "kalam";
-	font-size: 22px;
+    font-family: "kalam";
+    font-size: 22px;
 }
 
 #nv-primary-navigation-main .sub-menu{
-	background: #579DDF;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: #579DDF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .hfg_header .header-menu-sidebar .header-menu-sidebar-bg .nav-ul .sub-menu {
     background-color: #579CDA;
